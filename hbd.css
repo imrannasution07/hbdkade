@@ -1,0 +1,49 @@
+body{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  background:#FFC562;
+ }
+
+.card{
+  width: 350px;
+  background: #f1f1f1;
+  overflow: hidden;
+  font-family: "montserrat",sans-serif;
+  box-shadow: 0 0 20px #00000070;
+}
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.top{
+  position: relative;
+}
+.top img{
+  width: 100%;
+}
+.hbd{
+  position: absolute;
+  bottom: 15px;
+  left: 160px;
+  font-size: 39px;
+  font-weight: 900;
+  opacity: 0.8;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  line-height: 54px;
+  text-shadow: 3px 3px 1px black;
+}
+.bottom{
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 40px;
+   padding-right: 40px;
+  color: #333;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.sendto{
+  text-align: right;
+}
